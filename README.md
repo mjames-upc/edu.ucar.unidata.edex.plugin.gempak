@@ -1,10 +1,10 @@
 # GEMPAK to NetCDF3 Decoder
 
-## Instructions
+The `GempakToCF` class uses UCAR's nc2 package to convert GEMPAK gridded data files into netCDF3.
+
+A runnable Jar file is provided here to download:
 
 ```
-git clone https://github.com/mjames-upc/edu.ucar.unidata.edex.plugin.gempak.git
-cd edu.ucar.unidata.edex.plugin.gempak
-java -Xmx512m -jar netcdfAll-4.6.11.jar
-. src/edu/ucar/unidata/edex/plugin/gempak/GempakToCF.java 2016081612_lamp.gem 2016081612_lamp.nc
+wget https://github.com/mjames-upc/edu.ucar.unidata.edex.plugin.gempak/blob/master/GempakToCF.jar
+java -jar GempakToCF.jar INPUT.gem OUTPUT.nc
 ```
