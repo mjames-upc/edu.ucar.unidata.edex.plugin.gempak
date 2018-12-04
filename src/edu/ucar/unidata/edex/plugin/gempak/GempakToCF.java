@@ -13,7 +13,6 @@ public class GempakToCF {
 
     public static void main(String[] args) throws Exception {
 
-        
         if (args.length < 2) {
             System.out.println("You must supply an input and output file name");
             System.exit(1);
