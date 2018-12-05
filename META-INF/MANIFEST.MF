@@ -4,6 +4,6 @@ Bundle-Name: GEMPAK Grid to NetCDF Decoder
 Bundle-SymbolicName: edu.ucar.unidata.edex.plugin.gempak
 Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Unidata
-Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
 Export-Package: edu.ucar.unidata.edex.plugin.gempak
 Main-Class: edu.ucar.unidata.edex.plugin.gempak.GempakToCF

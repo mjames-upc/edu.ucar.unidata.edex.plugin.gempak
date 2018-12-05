@@ -24,9 +24,9 @@ public class GempakToCF {
         List<GridDatatype> grids = gds.getGrids();
         List<String> gridList = new ArrayList<String>(grids.size());
         
-        grids.forEach(grid -> {
+        for (GridDatatype grid: grids) {
         	gridList.add(((GeoGrid) grid).getName());
-        });
+        }
         
         int stride_time = 1;
         int horizStride = 1;
