@@ -6,5 +6,5 @@ A runnable Jar file is provided here to download:
 
 ```
 wget https://github.com/mjames-upc/edu.ucar.unidata.edex.plugin.gempak/blob/master/gempakToCF.jar
-java -jar GempakToCF.jar INPUT.gem OUTPUT.nc
+java -jar gempakToCF.jar INPUT.gem OUTPUT.nc
 ```
